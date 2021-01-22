@@ -15,7 +15,7 @@ function kilometerToMeter(kilometer) {
 // budgetCalculator
 
 function budgetCalculator(watch, mobile, laptop) {
-  var total = watch * 50 + mobile * 100 + laptop * 500;
+  var total = (watch * 50) + (mobile * 100) + (laptop * 500);
   return total;
 }
 var totalPrice = budgetCalculator(3, 2, 5);
